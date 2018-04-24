@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-node-js",
+  "version": "1.0.0",
+  "description": "This is a restful api with get,post delete and put functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Ambuj Chaturvedi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3"
+  }
+}
